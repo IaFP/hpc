@@ -3,3 +3,5 @@ dist-install
 dist-boot
 ghc.mk
 *.normalised
+*.hs.bak
+*.hsc.bak

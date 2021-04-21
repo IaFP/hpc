@@ -4,6 +4,9 @@
 #elif __GLASGOW_HASKELL__ >= 701
 {-# LANGUAGE Trustworthy #-}
 #endif
+#if __GLASGOW_HASKELL__ >= 810
+#endif
+
 ---------------------------------------------------------------
 -- Colin Runciman and Andy Gill, June 2006
 ---------------------------------------------------------------

@@ -2,6 +2,8 @@
 #ifdef __GLASGOW_HASKELL__
 {-# LANGUAGE Trustworthy #-}
 #endif
+#if __GLASGOW_HASKELL__ >= 810
+#endif
 
 module Trace.Hpc.Reflect
   ( clearTix
