@@ -1,7 +1,7 @@
 {-# LANGUAGE CPP #-}
-#if __GLASGOW_HASKELL__ >= 704
+#if __GLASGOW_HASKELL__ >= 704 &&  __GLASGOW_HASKELL__ < 903
 {-# LANGUAGE Safe #-}
-#elif __GLASGOW_HASKELL__ >= 702
+#else
 {-# LANGUAGE Trustworthy #-}
 #endif
 -----------------------------------------
